@@ -14,46 +14,143 @@
     </head>
 
     <body>
-        <div id="header">
-            <div id="header_tagline">
-                <h1>Huntington Electric Co., Inc.</h1>
-                <p>Proudly serving Northern Virginia for over 25 years</p>
-            </div>
+            <style>
+                    body {
+                    width:960px;
+                    margin:0 auto;
+                    }
+    
+                    .sml-img {
+                    width:300px;
+                    margin: 30px 20px 0px auto;
+                    }
 
-            <div id="header_navigation">
-                <a href=index.html>Home&nbsp;</a>
-                <a href=about/index.html>About Us&nbsp;</a>
-                <a href=services/index.html>Services&nbsp;</a>
-                <a href=contact/index.html>Contact Us</a>
-                <a href=blog/index.html>Blog</a>
-                <a href=gallery/index.html>Gallery</a>
-                <a href=faq/index.html>FAQ</a>
-            </div>
-            <hr />
-        </div>
+                    #article p {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    width: 250px;
+                    margin: 0px auto 0px auto;
+                    }
+
+                    .fan-grid {
+                        float:left;
+                    }
+
+                    .trouble-grid{
+                        float:left;
+                        margin: 90px 0px 0px 0px;
+                    }
+
+                    .light-grid{
+                        float:right;
+                    }
+
+                    #article {
+                    text-align:center;
+                    }
+
+                    .message {
+                        margin: 50px auto 0px auto;
+                        border-top: 10px solid #bc0000;
+                        padding: 10px;
+                    }
+
+
+            </style>
+                <div id="header">
+                    <style type="text/css">
+                    
+                        a:link{ color:#bc0000;
+                                text-decoration:none;}
+                        a:visited{color:#bc0000;}
+                        a:hover{color:#850000;}
+                        a:active{color:#ffffff;}
+        
+        
+                        #header{
+                            border-top: 4px solid #bc0000;
+                            border-bottom: 4px solid #bc0000;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        }
+                        
+                        #header ul {
+                            width: 900px;
+                            padding: 10px;
+                            margin: 10px auto 10px auto;
+                            text-align:right;
+                        }
+                        #header li{
+                            display:inline;
+                            margin: 0px 6px;
+                            
+                        }
+                        #header h1{
+                            color:#bc0000;
+                            display: inline;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            float: left;
+                            margin: 10px auto 0px auto;
+                        }
+        
+                        img.logo{
+                            width: 50px;
+                            height: 50px;
+                            margin: 4px auto 0px auto;
+                            float:left;
+                        }
+                        
+        
+                       
+                        
+                        </style>
+                    
+                    <div id="header_tagline">
+                        <img src="images/hec_logo.png"
+                        class=logo>
+                        <h1>Huntington Electric</h1>
+                    </div>
+        
+                    <div id="header_navigation">
+                        <ul>
+                            <li><a href=index.html>Home</a></li>
+                            <li><a href=about/index.html>About Us</a></li>
+                            <li><a href=services/index.html>Services</a></li>
+                            <li><a href=contact/index.html>Contact Us</a></li>
+                            <li><a href=blog/index.html>Blog</a></li>
+                            <li><a href=gallery/index.html>Gallery</a></li>
+                            <li><a href=faq/index.html>FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
 
 
         <!-- The pictures are dummy thicc right now, so they're commented out -->
-        <img class=sml-img src="images/ceiling_fan.jpg" alt="A ceiling fan" />
-        <h2>Ceiling Fans</h2>
-        <p>We remove and replace ceiling fans every day! Don't have one to replace?
-            Let's get one installed for you!
-        </p>
+        <div id=article class=fan-grid>
+            <img class=sml-img src="images/ceiling_fan.jpg" alt="A ceiling fan" />
+            <h2>Ceiling Fans</h2>
+            <p>We remove and replace ceiling fans every day! Don't have one to replace?
+                Let's get one installed for you!
+            </p>
+        </div>
 
-        <img class=sml-img src="images/troubleshooting.jpg" alt="A man tinkering with wires" />
-        <h2>Troubleshooting</h2>
-        <p>Busted light? Outlets out? Room with no power? Appliances not getting
-            power? Let's get that fixed!
-        </p>
+        <div id=article class=trouble-grid>
+            <img class=sml-img src="images/troubleshooting.jpg" alt="A man tinkering with wires" />
+            <h2>Troubleshooting</h2>
+            <p>Busted light? Outlets out? Room with no power? Appliances not getting
+                power? Let's get that fixed!
+            </p>
+        </div>
 
-        <img class=sml-img src="images/recessed_lighting.jpg" alt="A finished basement with recessed lighting" />
-        <h2>Recessed Lighting</h2>
-        <p>Lamps are stylish and good for reading but lets light the place up!
-            Let's make those rooms bright and happy!
-        </p>
+        <div id=article class=light-grid>
+            <img class=sml-img src="images/recessed_lighting.jpg" alt="A finished basement with recessed lighting" />
+            <h2>Recessed Lighting</h2>
+            <p>Lamps are stylish and good for reading but lets light the place up!
+                Let's make those rooms bright and happy!
+            </p>
+        </div>
 
-        <h2>We Strive to Stand Out</h2>
-        <p>We are a residential and commercial electrical company that specializes
+        <div class="message">
+            <h2>We Strive to Stand Out</h2>
+            <p>We are a residential and commercial electrical company that specializes
             in residential and service work. we conduct our work in a clean,
             efficient, quality, workman-like manner. We are known around Northern
             Virginia as the guys who get it done right and make our customers smile.
@@ -69,7 +166,8 @@
 
             Joseph Huntington
             Huntington Electric Co., Inc. Manager
-        </p>
+            </p>
+        </div>
 
         <div id="footer">
             <div id="footer_contact_info">
@@ -92,14 +190,5 @@
             </div>
         </div>
     </body>
-
-    <style>
-        .sml-img {
-            width:500px;
-        }
-    
-    
-    
-    </style>
 
 </html>
