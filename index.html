@@ -1,108 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang = "en">
     <head>
         <meta charset="utf-8">
 
-        <title>Huntington Electric Co., Inc.</title>
+        <title>Huntington Electric</title>
 
         <meta name="description" content="Huntington Electric Co.">
-        <meta name="author" content="PenHunt">
+        <meta name="author" content="IndigoStack">
 
         <link rel="stylesheet" href="css/styles.css?v=1.0">
 
     </head>
 
     <body>
-            <style>
-                    body {
-                    width:960px;
-                    margin:0 auto;
-                    }
-    
-                    .sml-img {
-                    width:300px;
-                    margin: 30px 20px 0px auto;
-                    }
+        <header>
+            <div id="header_tagline">
+                <img src="images/hec_logo.png"
+                class=logo>
+                <h1>Huntington Electric</h1>
+            </div>
 
-                    #article p {
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    width: 250px;
-                    margin: 0px auto 0px auto;
-                    }
+            <nav id="navbar">
+                <ul>
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href=about/index.html>About Us</a></li>
+                    <li><a href=services/index.html>Services</a></li>
+                    <li><a href=contact/index.html>Contact Us</a></li>
+                    <li><a href=blog/index.html>Blog</a></li>
+                    <li><a href=gallery/index.html>Gallery</a></li>
+                    <li><a href=faq/index.html>FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
 
-                    .fan-grid {
-                        float:left;
-                    }
-
-                    .trouble-grid{
-                        float:left;
-                        margin: 90px 0px 0px 0px;
-                    }
-
-                    .light-grid{
-                        float:right;
-                    }
-
-                    #article {
-                    text-align:center;
-                    }
-
-                    .message {
-                        margin: 50px auto 0px auto;
-                        border-top: 10px solid #bc0000;
-                        padding: 10px;
-                    }
-
-
-            </style>
-                <div id="header">
-                    <div id="header_tagline">
-                        <img src="images/hec_logo.png"
-                        class=logo>
-                        <h1>Huntington Electric</h1>
-                    </div>
-        
-                    <div id="header_navigation">
-                        <ul>
-                            <li><a href=index.html>Home</a></li>
-                            <li><a href=about/index.html>About Us</a></li>
-                            <li><a href=services/index.html>Services</a></li>
-                            <li><a href=contact/index.html>Contact Us</a></li>
-                            <li><a href=blog/index.html>Blog</a></li>
-                            <li><a href=gallery/index.html>Gallery</a></li>
-                            <li><a href=faq/index.html>FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-        <!-- The pictures are dummy thicc right now, so they're commented out -->
-        <div id=article class=fan-grid>
+        <article class=fans>
             <img class=sml-img src="images/ceiling_fan.jpg" alt="A ceiling fan" />
             <h2>Ceiling Fans</h2>
             <p>We remove and replace ceiling fans every day! Don't have one to replace?
                 Let's get one installed for you!
             </p>
-        </div>
+        </article>
 
-        <div id=article class=trouble-grid>
+        <article class=troubleshoot>
             <img class=sml-img src="images/troubleshooting.jpg" alt="A man tinkering with wires" />
             <h2>Troubleshooting</h2>
             <p>Busted light? Outlets out? Room with no power? Appliances not getting
                 power? Let's get that fixed!
             </p>
-        </div>
+        </article>
 
-        <div id=article class=light-grid>
+        <article class=lighting>
             <img class=sml-img src="images/recessed_lighting.jpg" alt="A finished basement with recessed lighting" />
             <h2>Recessed Lighting</h2>
             <p>Lamps are stylish and good for reading but lets light the place up!
                 Let's make those rooms bright and happy!
             </p>
-        </div>
+        </article>
 
-        <div class="message">
+        <section id="message">
             <h2>We Strive to Stand Out</h2>
             <p>We are a residential and commercial electrical company that specializes
             in residential and service work. we conduct our work in a clean,
@@ -121,11 +77,10 @@
             Joseph Huntington
             Huntington Electric Co., Inc. Manager
             </p>
-        </div>
+        </section>
 
-        <div id="footer">
-            <div id="footer_contact_info">
-                <hr />
+        <footer>
+            <div id="footer_contact">
                 <ul>
                     <li><b>EMAIL:</b> Huntingtonelectric@aol.com</li>
                     <li><b>PHONE:</b> (703) 406-3511</li>
@@ -139,23 +94,8 @@
             </div>
 
             <div id="footer_copyright">
-                <hr />
                 <p>Copyright &copy; 2019 Huntington Electric Co., Inc.</p>
             </div>
-        </div>
+        </footer>
     </body>
-
-<<<<<<< HEAD
-    <style>
-        .sml-img {
-            width:230px;
-            height:230px;
-        }
-    
-    
-    
-    </style>
-
-=======
->>>>>>> 385fe899804c494b6db9e1dd3d62556d72302dbd
 </html>
