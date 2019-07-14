@@ -7,7 +7,7 @@
 header {
     position: fixed;
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(250, 250, 250));
-    height: 10vh;
+    height: 80px;
     width: 100%;
     border-bottom: 2px solid #CA0202;
     margin-bottom: 30px;
