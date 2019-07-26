@@ -40,19 +40,19 @@ body {
     margin-left: 30px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #CA0202;
+    color: rgba(239,35,60,1);
     outline: 0;
 }
 
 #navbar a:hover {
-    color: rgb(100, 0, 0);
+    color: rgb(192, 71, 71);
 }
 
 #navbar a:after {
     display:block;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
     content: '';
-    border-bottom: solid 2px rgb(100, 0, 0);
+    border-bottom: solid 2px rgba(239,35,60,1);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
   }
@@ -64,11 +64,12 @@ body {
     width: 100%;
     height: 600px;
     background-color: #CA0202;
-    background-image: linear-gradient(to top left, #ca0202, #ff3838);
+    background-image: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
     box-shadow: inset 0 -10px 10px -10px #000000;
 }
 
 #hero_text {
+    color: white;
     font-size: 30px;
     width: 500px;
     padding-top: 200px;
