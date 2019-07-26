@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
 }
 
 header {
@@ -37,10 +39,13 @@ body {
 }
 
 #navbar a {
-    margin-left: 30px;
+    margin-left: 40px;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgba(239,35,60,1);
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.10rem;
+    color: rgb(224, 33, 55);
     outline: 0;
 }
 
@@ -62,7 +67,7 @@ body {
 
 #hero {
     width: 100%;
-    height: 600px;
+    height: 850px;
     background-color: #CA0202;
     background-image: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
     box-shadow: inset 0 -10px 10px -10px #000000;
@@ -72,25 +77,38 @@ body {
     color: white;
     font-size: 30px;
     width: 500px;
-    padding-top: 200px;
+    padding-top: 300px;
     margin-left: 200px;
 }
 
+#services_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px auto 0px auto;
+    max-width: 1300px;
+}
+
+#services_header {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .landing_article {
-    margin: 20px;
-    width: 30vw;
-    display: inline-block;
+    flex: 0 0 25%;
     text-align: center;
     /*box-shadow: 0 0 5px #000; <-maybe? */
 }
 
 .landing_article h2 {
     margin-top: 40px;
+    letter-spacing: 0.10rem;
 }
 
 .landing_article p {
-    width: 25vw;
-    margin: 20px auto 20px auto;
+    margin-top:30px;
+    line-height: 1.6rem;
 }
 
 
