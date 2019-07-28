@@ -162,9 +162,11 @@ body {
     text-align: center;
 }
 
+/* footer start */
+
 footer {
     border-top: 2px solid black;
-    background-color: rgb(26, 26, 43);
+    background-image: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
     color: white;
 }
 
@@ -173,8 +175,15 @@ footer ul, footer li {
 }
 
 footer ul {
-    display: inline-block;
     list-style-type: none;
+}
+
+.icon_contact {
+    fill: #303C42;
+}
+
+#hours_list li {
+    display: inline-block;
 }
 
 #footer_copyright {
@@ -182,6 +191,10 @@ footer ul {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+#footer_links a {
+    text-decoration: none;
 }
 
 #footer_contact {
@@ -207,12 +220,12 @@ footer ul {
 #footer_action {
     margin: auto;
     margin-top: 25px;
-    background-image: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
+    background-image: linear-gradient(90deg, rgba(239,35,60,1) 0%, rgba(217,4,41,1) 100%);
     border-radius: 4px;
     font-size: 20px;
     line-height: 45px;
     width: 150px;
-    border: 0px solid;
+    border: 0px rgba(217,4,41,1) solid;
     vertical-align: middle;
 }
 
@@ -237,5 +250,8 @@ footer ul {
 
 .icon_link {
     width: 50px;
+    height: 50px;
     margin: 10px;
 }
+
+/* footer end */
