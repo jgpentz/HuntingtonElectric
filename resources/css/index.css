@@ -44,7 +44,6 @@ body {
     margin-right: auto;
     border-radius: 3px;
     width: 1000px;
-    background: green;
     -webkit-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
     box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
@@ -83,9 +82,9 @@ body {
     background: repeating-linear-gradient(
         -45deg,
         #ffffff,
-        #ffffff 3px,
-        #eeeeee 3px,
-        #eeeeee 5px
+        #ffffff 6px,
+        #eeeeee 6px,
+        #eeeeee 12px
       );
 }
 
