@@ -32,12 +32,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 3px;
-    width: 1200px;
+    width: 1000px;
     background: green;
+}
+
+#contact_form_instruction {
+    margin: 10
 }
 
 #contact_form_left {
     flex: 2;
+    display: flex;
     background: pink;
 }
 
@@ -47,11 +52,14 @@ body {
 }
 
 #contact_main_block_bottom {
-    background-image: url('../img/service_area_map.png');
     position: absolute;
+    width:100%;
+    /* height: 100%; */
     top: 882px;
     bottom: 20px;
-    width:100%;
+    background-image: url('../img/service_area_map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #contact_main_block_top {
