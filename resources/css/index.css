@@ -79,7 +79,9 @@ body {
 }
 
 #contact_main_form {
-    margin: 20px 0px 20px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px 20px 10px;
 }
 
 #contact_tagline {
@@ -91,19 +93,21 @@ body {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #CCC;
+    padding-left: 5px;
     color: #555;
     box-sizing: border-box;
     font-family: 'Arvo';
     font-size: 18px;
     height: 40px;
-    width: 240px;
+    width: 250px;
 
     &:focus {
       outline: none;
     }
 }
 
-.contact_input:focus+.contact_underline {
+.contact_input:focus+.contact_underline,
+.contact_input:focus+.contact_underline1 {
     transform: scale(1);
   }
 
@@ -111,7 +115,7 @@ body {
     background-color: rgba(239,35,60,1);
     display: inline-block;
     height: 2px;
-    left: 50px;
+    left: 58px;
     margin-top: -4px;
     position: absolute;
     top: 220px;
@@ -119,14 +123,14 @@ body {
     transform: scale(0, 1);
     -webkit-transition: all 0.5s linear;
     transition: all 0.3s linear;
-    width: 242px;
+    width: 252px;
   }
 
   .contact_underline1 {
       background-color: rgba(239,35,60,1);
       display: inline-block;
       height: 2px;
-      left: 50px;
+      left: 358px;
       margin-top: -4px;
       position: absolute;
       top: 220px;
@@ -134,7 +138,7 @@ body {
       transform: scale(0, 1);
       -webkit-transition: all 0.5s linear;
       transition: all 0.3s linear;
-      width: 242px;
+      width: 252px;
     }
 
 #header_logo {
