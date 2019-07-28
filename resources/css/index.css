@@ -47,7 +47,11 @@ body {
 }
 
 #contact_main_block_bottom {
-    height: 100%;
+    background-image: url('../img/service_area_map.png');
+    position: absolute;
+    top: 882px;
+    bottom: 20px;
+    width:100%;
 }
 
 #contact_main_block_top {
