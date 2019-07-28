@@ -204,6 +204,36 @@ body {
 
 /* contact end */
 
+/* faq start */
+
+#faq {
+    text-align: center;
+    margin: 20px;
+}
+
+#faq h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#faq h2 {
+    font-size: 35px;
+}
+
+#faq p {
+    font-size: 15px;
+    width: 600px;
+    margin: 25px auto 25px auto;
+}
+
+.faq_block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* faq end */
+
 /* nav start */
 
 #header_logo {
