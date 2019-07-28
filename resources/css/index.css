@@ -244,18 +244,37 @@ body {
     text-align: center;
 }
 
+#tagline_header {
+    font-size: 50px;
+}
+
 .tagline_block {
     width: 300px;
     display: inline-block;
     margin: 50px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
-#tagline_services {
-    background-color: aqua;
+.tagline_button {
+    margin: auto;
+    margin-top: 25px;
+    background-image: linear-gradient(90deg, rgba(239,35,60,1) 0%, rgba(217,4,41,1) 100%);
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 45px;
+    width: 150px;
+    border: 0px rgba(217,4,41,1) solid;
+    vertical-align: middle;
 }
 
-#tagline_contact {
-    background-color: aquamarine;
+.tagline_button a {
+    color: white;
+}
+
+.tagline_block a {
+    text-decoration: none;
+    
 }
 
 /* tagline end */
