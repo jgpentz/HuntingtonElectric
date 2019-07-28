@@ -127,9 +127,9 @@ body {
     border-bottom: solid 2px rgba(239,35,60,1);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
-  }
+}
 
-  #navbar a:hover:after { transform: scaleX(1.0); }
+#navbar a:hover:after { transform: scaleX(1.0); }
 
 #services_container {
     display: flex;
@@ -169,10 +169,28 @@ body {
     margin-top: 20px;
 }
 
-#message {
+/* tagline start */
+
+#tagline {
     margin: 100px auto 100px auto;
     text-align: center;
 }
+
+.tagline_block {
+    width: 300px;
+    display: inline-block;
+    margin: 50px;
+}
+
+#tagline_services {
+    background-color: aqua;
+}
+
+#tagline_contact {
+    background-color: aquamarine;
+}
+
+/* tagline end */
 
 /* footer start */
 
@@ -190,12 +208,12 @@ footer ul {
     list-style-type: none;
 }
 
-.icon_contact {
-    fill: #303C42;
+.hours_line {
+    display: inline-block;
 }
 
-#hours_list li {
-    display: inline-block;
+#hours_line_2 {
+    margin-left: 40px;
 }
 
 #footer_copyright {
