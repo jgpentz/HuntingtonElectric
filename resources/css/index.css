@@ -36,7 +36,7 @@ body {
 #contact_form {
     position: absolute;
     display: flex;
-    top: 500px;
+    top: 400px;
     left: 0;
     right: 0;
     height: 700px;
@@ -82,9 +82,9 @@ body {
     background: repeating-linear-gradient(
         -45deg,
         #ffffff,
-        #ffffff 6px,
-        #eeeeee 6px,
-        #eeeeee 12px
+        #ffffff 8px,
+        #eeeeee 8px,
+        #eeeeee 10px
       );
 }
 
