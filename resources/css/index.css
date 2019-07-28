@@ -6,6 +6,13 @@
     font-family: 'Raleway', Helvetica, sans-serif;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 header {
     position: fixed;
     display: flex;
