@@ -16,10 +16,19 @@ header {
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(250, 250, 250));
     border-bottom: 2px solid #CA0202;
     top: 0;
+    z-index: 6;
 }
 
 body {
     margin-top: 82px;
+}
+
+#contact_footer_copyright {
+    text-align: center;
+    position: absolute;
+    top: 1382px;
+    bottom: 0px;
+    width: 100%;
 }
 
 #contact_form {
@@ -37,13 +46,14 @@ body {
 }
 
 #contact_form_instruction {
-    margin: 10
+    margin: 50px;
 }
 
 #contact_form_left {
     flex: 2;
     display: flex;
-    background: pink;
+    flex-direction: column;
+    background: white;
 }
 
 #contact_form_right {
@@ -54,9 +64,9 @@ body {
 #contact_main_block_bottom {
     position: absolute;
     width:100%;
-    /* height: 100%; */
+    height: 500px;
     top: 882px;
-    bottom: 20px;
+    bottom:20px;
     background-image: url('../img/service_area_map.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,10 +78,68 @@ body {
     background: purple;
 }
 
+#contact_main_form {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px 20px 10px;
+}
+
 #contact_tagline {
     padding: 150px 0px 0px 125px;
     font-size: 40px;
 }
+
+.contact_input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding-left: 5px;
+    color: #555;
+    box-sizing: border-box;
+    font-family: 'Arvo';
+    font-size: 18px;
+    height: 40px;
+    width: 250px;
+
+    &:focus {
+      outline: none;
+    }
+}
+
+.contact_input:focus+.contact_underline,
+.contact_input:focus+.contact_underline1 {
+    transform: scale(1);
+  }
+
+.contact_underline {
+    background-color: rgba(239,35,60,1);
+    display: inline-block;
+    height: 2px;
+    left: 58px;
+    margin-top: -4px;
+    position: absolute;
+    top: 220px;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.3s linear;
+    width: 252px;
+  }
+
+  .contact_underline1 {
+      background-color: rgba(239,35,60,1);
+      display: inline-block;
+      height: 2px;
+      left: 358px;
+      margin-top: -4px;
+      position: absolute;
+      top: 220px;
+      -webkit-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.3s linear;
+      width: 252px;
+    }
 
 #header_logo {
     float: left;
