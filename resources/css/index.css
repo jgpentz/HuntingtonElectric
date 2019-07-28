@@ -147,6 +147,10 @@ body {
     width: 550px;
 }
 
+.contact_input_box:focus {
+    border:1px solid red;
+}
+
 .contact_input:focus+.contact_underline,
 .contact_input:focus+.contact_underline1,
 .contact_input:focus+.contact_underline2,
