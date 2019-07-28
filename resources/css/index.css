@@ -22,6 +22,45 @@ body {
     margin-top: 82px;
 }
 
+#contact_form {
+    position: absolute;
+    display: flex;
+    top: 500px;
+    left: 0;
+    right: 0;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    width: 1200px;
+    background: green;
+}
+
+#contact_form_left {
+    flex: 2;
+    background: pink;
+}
+
+#contact_form_right {
+    flex: 1;
+    background:orange;
+}
+
+#contact_main_block_bottom {
+    height: 100%;
+}
+
+#contact_main_block_top {
+    width: 100%;
+    height: 800px;
+    background: purple;
+}
+
+#contact_tagline {
+    padding: 150px 0px 0px 125px;
+    font-size: 40px;
+}
+
 #header_logo {
     float: left;
 }
@@ -29,6 +68,22 @@ body {
 #header_logo img {
     width: 300px;
     margin: 10px 0px 10px 40px;
+}
+
+#hero {
+    width: 100%;
+    height: 600px;
+    background-color: #CA0202;
+    background-image: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
+    box-shadow: inset 0 -10px 10px -10px #000000;
+}
+
+#hero_text {
+    color: white;
+    font-size: 30px;
+    width: 500px;
+    padding-top: 200px;
+    margin-left: 200px;
 }
 
 #navbar {
@@ -63,23 +118,6 @@ body {
   }
 
   #navbar a:hover:after { transform: scaleX(1.0); }
-
-
-#hero {
-    width: 100%;
-    height: 600px;
-    background-color: #CA0202;
-    background-image: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
-    box-shadow: inset 0 -10px 10px -10px #000000;
-}
-
-#hero_text {
-    color: white;
-    font-size: 30px;
-    width: 500px;
-    padding-top: 200px;
-    margin-left: 200px;
-}
 
 #services_container {
     display: flex;
