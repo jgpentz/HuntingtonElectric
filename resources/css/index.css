@@ -152,6 +152,7 @@ body {
     font-size: 18px;
     height: 150px;
     width: 556px;
+    resize: none;
 }
 
 .contact_input_box:focus {
