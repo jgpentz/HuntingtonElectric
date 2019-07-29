@@ -61,7 +61,6 @@ body {
 
 .contact_address {
     margin-left:38px;
-    /* line-height: 1.4rem; */
     padding-bottom:7px;
 }
 
@@ -511,6 +510,10 @@ footer ul {
     text-align: left;
 }
 
+.icon_contact {
+    margin-right:10px;
+}
+
 #footer_links {
     width: 25%;
     text-align: left;
@@ -519,6 +522,24 @@ footer ul {
 #footer_container {
     width: 45%;
     position: relative;
+}
+
+.footer_contact_info {
+    margin-left: 10px;
+}
+
+.footer_icon_text {
+    display: inline;
+    vertical-align: 40%;
+}
+
+.footer_contact_hours {
+    margin-left:38px;
+}
+
+.footer_contact_address {
+    margin-left:38px;
+    padding-bottom:7px;
 }
 
 #footer_statement {
@@ -554,7 +575,7 @@ footer ul {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    height: 210px;
+    height: 225px;
 }
 
 .icon_link {
