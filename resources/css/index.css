@@ -40,15 +40,20 @@ body {
     height: 500px;
     display: flex;
     justify-content: space-evenly;
-    background-color: chocolate;
 }
 
 .about_service_box {
-    background-color:aquamarine;
-    width: 800px;
+    width: 45%;
     display: inline-block;
     columns: 3;
     list-style-position: inside;
+}
+
+.about_service_box h1 {
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    background-color:red;
 }
 
 
