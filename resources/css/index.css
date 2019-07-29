@@ -44,15 +44,27 @@ body {
 
 .about_service_box {
     width: 45%;
-    columns: 3;
     list-style-position: inside;
+    -webkit-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
 }
 
-.about_service_box h1 {
+.about_service_column {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid blueviolet;
+}
+
+.about_service_box_header {
     width: 100%;
     text-align: center;
-    background-color:red;
-    column-span: all;
+    color: white;
+    background-image: linear-gradient(90deg, rgba(239,35,60,1) 0%, rgba(217,4,41,1) 100%);
+}
+
+#about_vision_text {
+    margin-top: 300px;
 }
 
 /* about end */
