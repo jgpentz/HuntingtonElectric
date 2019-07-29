@@ -30,6 +30,35 @@ body {
     margin-top: 82px;
 }
 
+/* about start */
+
+#about_story_text {
+    margin-bottom: 50px;
+}
+
+#about_service_container {
+    height: 500px;
+    background-color: chocolate;
+    width: 100%;
+}
+
+.about_service_box {
+    background-color:aquamarine;
+    text-align: left;
+    align-content: center;
+    vertical-align: top;
+    margin: 0 auto;
+    width: 45%;
+    display: inline-block;
+    columns: 3;
+    list-style-position: inside;
+}
+
+
+
+
+/* about end */
+
 /* contact start */
 
 #contact_footer_copyright {
