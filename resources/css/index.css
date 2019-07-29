@@ -44,20 +44,16 @@ body {
 
 .about_service_box {
     width: 45%;
-    display: inline-block;
     columns: 3;
     list-style-position: inside;
 }
 
 .about_service_box h1 {
-    margin-bottom: 30px;
     width: 100%;
     text-align: center;
     background-color:red;
+    column-span: all;
 }
-
-
-
 
 /* about end */
 
