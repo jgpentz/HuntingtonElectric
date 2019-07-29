@@ -38,17 +38,14 @@ body {
 
 #about_service_container {
     height: 500px;
+    display: flex;
+    justify-content: space-evenly;
     background-color: chocolate;
-    width: 100%;
 }
 
 .about_service_box {
     background-color:aquamarine;
-    text-align: left;
-    align-content: center;
-    vertical-align: top;
-    margin: 0 auto;
-    width: 45%;
+    width: 800px;
     display: inline-block;
     columns: 3;
     list-style-position: inside;
