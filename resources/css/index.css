@@ -32,12 +32,42 @@ body {
 
 /* about start */
 
-#about_story_text {
+#about_story_container {
+    display: flex;
+}
+
+#about_story_text_container {
     margin-bottom: 50px;
+    width: 700px;
+    margin: 50px auto 50px 200px;
+    box-shadow: 0px 1px 3px -0.5px rgba(0,0,0,0.75);
+    padding: 15px;
+}
+
+#about_story_header {
+    text-indent: 100px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#about_story_text {
+    text-indent: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#about_story_img {
+    width: 210px;
+    height: 280px;
+    margin: auto;
+    margin-right: 200px;
+    background: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
+    padding: 20px;
+    box-shadow: inset 0 0 10px #000000;
 }
 
 #about_service_container {
-    height: 500px;
+    height: 290px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -45,15 +75,25 @@ body {
 .about_service_box {
     width: 45%;
     list-style-position: inside;
-    -webkit-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
-    box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 8px -0.75px rgba(0,0,0,0.75);
+}
+
+.about_service_column_container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .about_service_column {
+    padding-top: 10px;
     width: 30%;
-    display: inline-block;
-    border: 1px solid blueviolet;
+}
+
+#about_service_list_container {
+    line-height: 1.9;
+}
+
+#about_service_area_container {
+    line-height: 1.4;
 }
 
 .about_service_box_header {
@@ -63,9 +103,109 @@ body {
     background-image: linear-gradient(90deg, rgba(239,35,60,1) 0%, rgba(217,4,41,1) 100%);
 }
 
-#about_vision_text {
-    margin-top: 300px;
+#about_vision_container {
+    margin-top: 100px;
+    display: flex;
 }
+
+#about_vision_text_container {
+    margin-bottom: 50px;
+    width: 700px;
+    margin: 50px auto 50px -200px;
+    box-shadow: 0px 1px 3px -0.5px rgba(0,0,0,0.75);
+    padding: 15px;
+}
+
+#about_vision_header {
+    text-indent: 100px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#about_vision_text {
+    text-indent: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#about_vision_img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-left: 200px;
+    background: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
+    padding: 20px;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+#about_strive_container {
+    margin-top: 100px;
+    display: flex;
+}
+
+#about_strive_text_container {
+    margin-bottom: 50px;
+    width: 700px;
+    margin: 50px auto 50px 200px;
+    box-shadow: 0px 1px 3px -0.5px rgba(0,0,0,0.75);
+    padding: 15px;
+}
+
+#about_strive_header {
+    text-indent: 100px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#about_strive_text {
+    text-indent: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#about_strive_img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-right: 200px;
+    background: linear-gradient(90deg, rgba(217,4,41,1) 0%, rgba(239,35,60,1) 100%);
+    padding: 20px;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+#about_cta {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#about_cta_text {
+    font-size: 40px;
+}
+
+#about_cta_action {
+    margin: 50px auto 100px auto;
+    margin-top: 25px;
+    background-image: linear-gradient(90deg, rgba(239,35,60,1) 0%, rgba(217,4,41,1) 100%);
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 45px;
+    width: 400px;
+    border: 0px rgba(217,4,41,1) solid;
+    vertical-align: middle;
+
+}
+
+#about_cta_action a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#about_cta_action a:hover {
+    transition: all ease-in-out 300ms;
+    color: rgb(224, 224, 224);
+}
+
 
 /* about end */
 
@@ -455,7 +595,7 @@ body {
     width: 300px;
     display: inline-block;
     margin: 50px;
-    border: 1px solid black;
+    box-shadow: 0px 1.5px 4.5px -0.5px rgba(0,0,0,0.75);
     padding: 10px;
 }
 
@@ -467,7 +607,6 @@ body {
     font-size: 20px;
     line-height: 45px;
     width: 150px;
-    border: 0px rgba(217,4,41,1) solid;
     vertical-align: middle;
 }
 
